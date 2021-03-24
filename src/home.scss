@@ -1,0 +1,30 @@
+header {
+    background-color: black;
+    height: 3rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .addUser {
+        button {
+            font-size: 1.1rem;
+            color: white;
+            background-color: black;
+            border-radius: 2rem;
+            cursor: pointer;
+            border: 0;
+            padding: 0.3rem 0.7rem;
+            outline: 0;
+
+            &:hover {
+                color: black;
+                background-color: white;
+            }
+        }
+    }
+}
